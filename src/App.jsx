@@ -30,7 +30,7 @@ function App() {
                 <TextForm heading="Enter text to analyze below" mode={mode} />
               }
             />
-            <Route path="/about" element={<About />} />
+            <Route path="/about" element={<About mode={mode}/>} />
           </Routes>
         </div>
       </Router>
